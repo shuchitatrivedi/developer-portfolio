@@ -1,0 +1,112 @@
+body{
+    margin:10px;
+    padding: 10px;
+}
+*{
+    box-sizing: border-box;
+    
+}
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdHxlvITMtgYmsl-z2d6mPma6akOSEF60_6A&usqp=CAU');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    }
+    
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;500;700&display=swap');
+
+    .hero-content{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        color: white;
+    
+
+    }
+    .black-box{
+        background-color: #000;
+        color: white;
+        text-align: center;
+    }
+    .blackbox-content h3{
+        font-size :80px; 
+        font-weight:400;
+        color: white;
+    }
+
+
+span{
+    font-size: 96px;
+    color: white;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    
+
+    border-radius: 1px;
+    object-fit: cover;
+    max-width:340px;
+    height: 450px;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+img{
+    height: 200px;
+}
+.container{
+    padding: 2px 16px;
+    margin: 5px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+    padding: 20px;
+}
+.second-bottom{
+    background-color: red;
+    width: 400px;
+    height: 150px;
+    margin: 50px;
+    padding: 10px;
+    color: white;
+}
+.first-bottom{
+    margin: 50px;
+    padding: 10px;
+    color: white;
+    background-color:green;
+    width: 400px;
+    height: 150px;
+}
+@media screen and (max-width:786px) {
+ .hero{
+    max-height: 50vh;
+ } 
+.black-box{
+    font-size: 24px;
+
+}
+.bottom{
+    flex-direction:column;
+}
+.card-container{
+
+    flex-direction: column;
+    
+}
+
+}
